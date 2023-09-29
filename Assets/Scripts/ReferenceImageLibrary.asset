@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 0
+  m_GuidHigh: 0
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5663135493018063338
+      m_GuidHigh: 5035286761819568801
+    m_SerializedTextureGuid:
+      m_GuidLow: 3595267751491890675
+      m_GuidHigh: 3074281794324651259
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: pngtree-pink-castle-girl-poster-romantic-hand-painted-png-image_7071232
+    m_Texture: {fileID: 2800000, guid: b0176df3f4f831e4fbdc2bf2000baa2a, type: 3}
