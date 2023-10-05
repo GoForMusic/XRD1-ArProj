@@ -742,6 +742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5675535571582986240}
   - component: {fileID: 8085200811017742092}
+  - component: {fileID: 7555270887965157280}
   m_Layer: 0
   m_Name: SKT_citizen_female
   m_TagString: Untagged
@@ -764,7 +765,7 @@ Transform:
   - {fileID: 6833126682769193430}
   - {fileID: 1558172866886436896}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &8085200811017742092
 Animator:
@@ -776,7 +777,7 @@ Animator:
   m_GameObject: {fileID: 4836310552832422213}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: c0a53a4d59663a9408616a060beec796, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1335b2700e2d76a4fa2d2d52192e6601, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -787,6 +788,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &7555270887965157280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4836310552832422213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d30e1a4d0985e42a5bcb723220356e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 8085200811017742092}
+  myCard: 0
 --- !u!1 &5157455110384203478
 GameObject:
   m_ObjectHideFlags: 0
