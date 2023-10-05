@@ -272,7 +272,7 @@ ModelImporter:
     second: Object020
   - first:
       74: 7400000
-    second: mixamo.com
+    second: Talking
   - first:
       95: 9500000
     second: //RootNode
@@ -314,7 +314,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: mixamo.com
+      name: Talking
       takeName: mixamo.com
       internalID: 7400000
       firstFrame: 0
