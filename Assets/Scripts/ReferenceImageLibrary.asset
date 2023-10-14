@@ -21,9 +21,9 @@ MonoBehaviour:
       m_GuidLow: 5663135493018063338
       m_GuidHigh: 5035286761819568801
     m_SerializedTextureGuid:
-      m_GuidLow: 5419117493897928195
-      m_GuidHigh: 16493258645465944088
+      m_GuidLow: 16119613095635963812
+      m_GuidHigh: 16345556305656293576
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: troll
-    m_Texture: {fileID: 2800000, guid: 23e41e0392a64b341850a35f5ad3e3e4, type: 3}
+    m_Name: market
+    m_Texture: {fileID: 0}
