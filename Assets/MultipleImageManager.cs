@@ -26,8 +26,12 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
 
     [SerializeField]
     private Vector3 scale = new Vector3(0.1f,0.1f,0.1f);
-
+    
     private ARTrackedImageManager _imageManager;
+    
+    private Vector2 previousDistance = Vector2.zero;
+    
+    private float previousRotation = 0f;
 
     private Dictionary<string, GameObject> arObjectList = new Dictionary<string, GameObject>();
 
@@ -45,6 +49,38 @@ public class TrackedImageInfoMultipleManager : MonoBehaviour
             arObjectList.Add(arObject.name, newARObject);
         }
     }
+    
+    private void Update()
+    {
+        if (activeArPrefab && Input.touchCount == 2) 
+        {
+            Touch touch0 = Input.GetTouch(0);
+            Touch touch1 = Input.GetTouch(1);
+
+            // Calculate the current distance and rotation
+            Vector2 currentDistance = touch1.position - touch0.position;
+            float currentRotation = Vector2.SignedAngle(touch1.position - touch0.position, Vector2.up);
+
+            if (touch0.phase == TouchPhase.Moved || touch1.phase == TouchPhase.Moved) 
+            {
+                // Pinch Gesture
+                float prevMagnitude = previousDistance.magnitude;
+                float currentMagnitude = currentDistance.magnitude;
+
+                float difference = currentMagnitude - prevMagnitude;
+                float scaleFactor = 1 + difference * 0.0025f; // F IS SENSITIVITY VALUE
+
+                activeArPrefab.transform.localScale *= scaleFactor;
+
+                // Rotation Gesture
+                float rotationDifference = currentRotation - previousRotation;
+                activeArPrefab.transform.Rotate(Vector3.up, -rotationDifference);
+            }
+            previousDistance = currentDistance;
+            previousRotation = currentRotation;
+        }
+    }
+
 
     private void OnEnable()
     {
