@@ -5,10 +5,11 @@ public class TextView : MonoBehaviour
 {
     public GameObject canvas;
     public string text;
+    public TextMeshProUGUI textCanvas;
     
     private void Start()
     {
-        
+        textCanvas.text = text;
     }
 
     private void Update()
@@ -31,6 +32,5 @@ public class TextView : MonoBehaviour
     private void ShowCanvas()
     {
         canvas.SetActive(true);
-        canvas.GetComponentInChildren<TextMeshPro>().text = text;
     }
 }
