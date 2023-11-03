@@ -871,10 +871,9 @@ MonoBehaviour:
   uiMenuObj: {fileID: 789566571}
   uiEnterButton: {fileID: 1232647454}
   arObjectsToPlace:
-  - {fileID: 3143799900113397275, guid: 5df42979fbdffb344ae109e054e262e1, type: 3}
-  - {fileID: 178205575109411845, guid: ea901f061645a214db733a86ccb9c6dd, type: 3}
+  - {fileID: 2498627063078893223, guid: 5df42979fbdffb344ae109e054e262e1, type: 3}
+  - {fileID: 2611391490358030585, guid: c2f81ccb9a4ee6b41b420d36830456b1, type: 3}
   scale: {x: 0.01, y: 0.01, z: 0.01}
-  maxTransformScale: {x: 0.01, y: 0.01, z: 0.01}
 --- !u!1 &1656934286
 GameObject:
   m_ObjectHideFlags: 0
