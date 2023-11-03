@@ -10092,9 +10092,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 976558727179420397, guid: 6566948f8cc19274dbb13e9089450e05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9143015197625110063}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 328184809642162786, guid: 6566948f8cc19274dbb13e9089450e05,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8333819114758914112}
   m_SourcePrefab: {fileID: 100100000, guid: 6566948f8cc19274dbb13e9089450e05, type: 3}
+--- !u!1 &2648927806044777830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 328184809642162786, guid: 6566948f8cc19274dbb13e9089450e05,
+    type: 3}
+  m_PrefabInstance: {fileID: 2328101069043947268}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8333819114758914112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2648927806044777830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2237c636cab4ca479d9afba83fd6e57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 5420532694343666829}
+  text: Blacksmiths were skilled artisans who worked with metals such as wrought
+    iron and steel to create a variety of objects, including weapons, tools, and
+    decorative items. In ancient Rome, blacksmiths were highly respected and played
+    an important role in the economy and society. They used a variety of tools, including
+    hammers, anvils, and chisels, to shape and mold the metal into the desired form.
+    The process of creating weapons in ancient Rome involved heating the metal until
+    it was red-hot and then hammering it into shape. The blacksmiths would then use
+    other tools to refine the shape and add details to the weapon. The finished product
+    was often highly decorated and could be used for both practical and ceremonial
+    purposes.
 --- !u!4 &3297335777419335145 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 976558727179420397, guid: 6566948f8cc19274dbb13e9089450e05,
@@ -10870,7 +10907,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 337154005768471330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ac5dafa6c7331b45a7fd9460a1b5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &2970989414486517470
@@ -16727,7 +16764,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7455952566755387730}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ac5dafa6c7331b45a7fd9460a1b5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &8865999984646843110
@@ -20071,6 +20108,96 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5025359196996335937}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5073674476588297603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3297335777419335145}
+    m_Modifications:
+    - target: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_Name
+      value: CanvasWordLocation
+      objectReference: {fileID: 0}
+    - target: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97373444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -1.776357e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.22768681
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 26.322
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0, type: 3}
+--- !u!1 &5420532694343666829 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5073674476588297603}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &9143015197625110063 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5073674476588297603}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5085037673069474597
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20718,7 +20845,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1648661135351839830}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ac5dafa6c7331b45a7fd9460a1b5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &7426000997601766442
@@ -21762,10 +21889,80 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2516398188032498284}
     m_Modifications:
+    - target: {fileID: 1431599824632052413, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431599824632052413, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 900
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431599824632052413, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1431599824632052413, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601819474553246931, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1631349116198376591, guid: 333c1ba9557926044865146711d74c86,
         type: 3}
       propertyPath: m_Name
       value: SM_sign_02_bakery
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_TextStyleHashCode
+      value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_overrideHtmlColors
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2644301235161634383, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6319955466401248483, guid: 333c1ba9557926044865146711d74c86,
         type: 3}
@@ -21823,13 +22020,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 2962928284500134532, guid: 333c1ba9557926044865146711d74c86, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6319955466401248483, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7427021984429254942}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1631349116198376591, guid: 333c1ba9557926044865146711d74c86,
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5865373435305955065}
+    - targetCorrespondingSourceObject: {fileID: 1631349116198376591, guid: 333c1ba9557926044865146711d74c86,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3249849039124456020}
   m_SourcePrefab: {fileID: 100100000, guid: 333c1ba9557926044865146711d74c86, type: 3}
 --- !u!4 &1937108516712397144 stripped
 Transform:
@@ -21861,6 +22067,30 @@ MonoBehaviour:
   precomputeOutline: 0
   bakeKeys: []
   bakeValues: []
+--- !u!114 &3249849039124456020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6626682421058345268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2237c636cab4ca479d9afba83fd6e57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 5965315675665968060}
+  text: "Baking was a popular profession and source of food in ancient Rome. Many
+    ancient Roman baking techniques were developed due to Greek bakers who traveled
+    to Rome following the Third Macedonian War (171\u2013168 BC). Ancient Roman bakers
+    could make large quantities of money, which may have contributed to receiving
+    a negative reputation. Bakers used tools such as the fornax, testum, thermospodium,
+    and the clibanus to make bread. Most Roman breads were made using sourdough.
+    The most common way to leaven bread was using flour mixed with grain. Pastry
+    cooks were known as pastillarium and bakers of sweetmeats and cakes were termed
+    dulciarius or crustularius. These were respected professions in ancient Rome
+    1. By the end of the Republic, private bakers known as pistores used mills to
+    mass-produce bread."
 --- !u!1001 &5580167890478889944
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22765,7 +22995,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 935651539134847875}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ac5dafa6c7331b45a7fd9460a1b5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &2160509974116821169
@@ -27840,6 +28070,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7034089854364439905, guid: 4f4cd09e2dfa55442a09a3c7c6b9b1fc,
     type: 3}
   m_PrefabInstance: {fileID: 6882822936686659675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6888755677630532274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1937108516712397144}
+    m_Modifications:
+    - target: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_Name
+      value: CanvasWordLocation
+      objectReference: {fileID: 0}
+    - target: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.98761845
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.15687534
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 18.051
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0, type: 3}
+--- !u!1 &5965315675665968060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6888755677630532274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7427021984429254942 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6888755677630532274}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6890227973421972470
 PrefabInstance:
@@ -37214,7 +37534,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4473501934147208443}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ac5dafa6c7331b45a7fd9460a1b5b83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &3628095601285763729

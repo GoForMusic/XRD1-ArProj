@@ -312,9 +312,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6358483120362375671, guid: 263e1489567d8fd4cadda23c195109d8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 952270788448033894}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6856979347834250538, guid: 263e1489567d8fd4cadda23c195109d8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6724933253493590062}
+    - targetCorrespondingSourceObject: {fileID: 6856979347834250538, guid: 263e1489567d8fd4cadda23c195109d8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8976442541920556284}
   m_SourcePrefab: {fileID: 100100000, guid: 263e1489567d8fd4cadda23c195109d8, type: 3}
+--- !u!1 &5400564273052711025 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6856979347834250538, guid: 263e1489567d8fd4cadda23c195109d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1574653435211504987}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6724933253493590062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400564273052711025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 0.53792757, b: 0, a: 1}
+  outlineWidth: 7
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &8976442541920556284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5400564273052711025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2237c636cab4ca479d9afba83fd6e57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 4101722740835393220}
+  text: "The Temple of Mars was a temple built on the Campus Martius in Rome in the
+    2nd century BC, near the Circus Flaminius. It was dedicated to Mars, the Roman
+    god of war, and was financed by booty from the consul Decimus Junius Brutus Callaicus\u2019
+    campaign in Hispania. The temple was designed by Hermodorus of Salamis and was
+    restored in the late Republic, retaining its original plan and features. If still
+    in use by the 4th century, the temple would have been closed during the persecution
+    of pagans in the late Roman Empire, when the Christian Emperors issued edicts
+    prohibiting non-Christian worship."
 --- !u!4 &5613618468669953196 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6358483120362375671, guid: 263e1489567d8fd4cadda23c195109d8,
@@ -1418,6 +1475,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1460052860552644391, guid: 5d62cd3131015804c93ce153237d7cf2,
     type: 3}
   m_PrefabInstance: {fileID: 3820001136379392734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3872241169725308874
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5613618468669953196}
+    m_Modifications:
+    - target: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_Name
+      value: CanvasWordLocation
+      objectReference: {fileID: 0}
+    - target: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 18.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9876922
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 1.7763568e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.1564105
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 17.997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0, type: 3}
+--- !u!4 &952270788448033894 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074583313307902892, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+    type: 3}
+  m_PrefabInstance: {fileID: 3872241169725308874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4101722740835393220 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 959488591002345742, guid: 27a5b7f510136ad4ab7ebca4dcb12cd0,
+    type: 3}
+  m_PrefabInstance: {fileID: 3872241169725308874}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4161935625734457149
 PrefabInstance:
