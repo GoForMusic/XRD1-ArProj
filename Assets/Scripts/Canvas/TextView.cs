@@ -1,11 +1,12 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TextView : MonoBehaviour
 {
     public GameObject canvas;
     public string text;
-    public TextMeshProUGUI textCanvas;
+    public Text textCanvas;
     
     private void Start()
     {
