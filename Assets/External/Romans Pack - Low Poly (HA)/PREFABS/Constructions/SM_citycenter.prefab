@@ -7349,21 +7349,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 34668242332645043}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d1eafbc975b96f44a900d8c525f58c1, type: 3}
+  m_Script: {fileID: 11500000, guid: c363a723b34438c4ba22fa7f5b31887c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 7099415332892724603}
-  text: "Baking was a popular profession and source of food in ancient Rome. Many
-    ancient Roman baking techniques were developed due to Greek bakers who traveled
-    to Rome following the Third Macedonian War (171\u2013168 BC). Ancient Roman bakers
-    could make large quantities of money, which may have contributed to receiving
-    a negative reputation. Bakers used tools such as the fornax, testum, thermospodium,
-    and the clibanus to make bread. Most Roman breads were made using sourdough.
-    The most common way to leaven bread was using flour mixed with grain. Pastry
-    cooks were known as pastillarium and bakers of sweetmeats and cakes were termed
-    dulciarius or crustularius. These were respected professions in ancient Rome.
-    By the end of the Republic, private bakers known as pistores used mills to mass-produce
-    bread."
+  canvas: {fileID: 5258473027768498644}
+  text: https://github.com/GoForMusic/XRD1-ArProj.git
   textCanvas: {fileID: 8010266308902998448}
 --- !u!4 &4714252820474091231 stripped
 Transform:
@@ -11924,7 +11914,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8547998132550906999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 0071f0e3c3a21a740a7d58ea4467283f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &7175007777359571653
@@ -19821,7 +19811,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1895729470077036996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 0071f0e3c3a21a740a7d58ea4467283f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &4789458498100011486
@@ -30549,72 +30539,72 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8345173854643920746}
     m_Modifications:
-    - target: {fileID: 959488591002345742, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 959488591002345742, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_Name
       value: CanvasWordLocation
       objectReference: {fileID: 0}
-    - target: {fileID: 959488591002345742, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 959488591002345742, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -44.4
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -7.7
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 18.5
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.97853106
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 1.0658141e-14
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.2060995
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.000000009008895
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 23.788
       objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
@@ -30623,22 +30613,22 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6470fb4ebce186a49b9857709671d149, type: 3}
---- !u!4 &5866247126313068883 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+  m_SourcePrefab: {fileID: 100100000, guid: 650d4f30f206caa42a2e0f1a386c77bd, type: 3}
+--- !u!1 &5678453576726290270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2823510882177865121, guid: 650d4f30f206caa42a2e0f1a386c77bd,
     type: 3}
   m_PrefabInstance: {fileID: 7629884199657818879}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7255864745893587953 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 959488591002345742, guid: 6470fb4ebce186a49b9857709671d149,
+--- !u!4 &5866247126313068883 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
     type: 3}
   m_PrefabInstance: {fileID: 7629884199657818879}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &7574523431832352570 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 71168841635675589, guid: 6470fb4ebce186a49b9857709671d149,
+  m_CorrespondingSourceObject: {fileID: 71168841635675589, guid: 650d4f30f206caa42a2e0f1a386c77bd,
     type: 3}
   m_PrefabInstance: {fileID: 7629884199657818879}
   m_PrefabAsset: {fileID: 0}
@@ -32064,14 +32054,79 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 4714252820474091231}
     m_Modifications:
-    - target: {fileID: 959488591002345742, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 959488591002345742, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_Name
       value: CanvasWordLocation
       objectReference: {fileID: 0}
-    - target: {fileID: 959488591002345742, guid: 6470fb4ebce186a49b9857709671d149,
+    - target: {fileID: 959488591002345742, guid: 650d4f30f206caa42a2e0f1a386c77bd,
         type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2823510882177865121, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -59.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 15.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9768967
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -3.5527137e-15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.21371208
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000000009341653
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 24.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4003900373988200759, guid: 6470fb4ebce186a49b9857709671d149,
@@ -32083,66 +32138,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -59.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -7.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 15.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.9768967
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -3.5527137e-15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.21371208
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.000000009341653
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 24.68
-      objectReference: {fileID: 0}
-    - target: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7390615507063107429, guid: 6470fb4ebce186a49b9857709671d149,
         type: 3}
@@ -32158,22 +32153,22 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6470fb4ebce186a49b9857709671d149, type: 3}
---- !u!4 &6295234603976740825 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4074583313307902892, guid: 6470fb4ebce186a49b9857709671d149,
+  m_SourcePrefab: {fileID: 100100000, guid: 650d4f30f206caa42a2e0f1a386c77bd, type: 3}
+--- !u!1 &5258473027768498644 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2823510882177865121, guid: 650d4f30f206caa42a2e0f1a386c77bd,
     type: 3}
   m_PrefabInstance: {fileID: 8058902824382393461}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7099415332892724603 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 959488591002345742, guid: 6470fb4ebce186a49b9857709671d149,
+--- !u!4 &6295234603976740825 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4074583313307902892, guid: 650d4f30f206caa42a2e0f1a386c77bd,
     type: 3}
   m_PrefabInstance: {fileID: 8058902824382393461}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &8010266308902998448 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 71168841635675589, guid: 6470fb4ebce186a49b9857709671d149,
+  m_CorrespondingSourceObject: {fileID: 71168841635675589, guid: 650d4f30f206caa42a2e0f1a386c77bd,
     type: 3}
   m_PrefabInstance: {fileID: 8058902824382393461}
   m_PrefabAsset: {fileID: 0}
@@ -33912,7 +33907,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3481401976104849884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 0071f0e3c3a21a740a7d58ea4467283f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &345711742702362374
@@ -36243,7 +36238,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4202289226227667150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1485e90402276d4bb12a3c5e5906b08, type: 3}
+  m_Script: {fileID: 11500000, guid: 0071f0e3c3a21a740a7d58ea4467283f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!82 &225748602429166085
@@ -37767,20 +37762,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8849748925743998949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d1eafbc975b96f44a900d8c525f58c1, type: 3}
+  m_Script: {fileID: 11500000, guid: c363a723b34438c4ba22fa7f5b31887c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas: {fileID: 7255864745893587953}
-  text: Blacksmiths were skilled artisans who worked with metals such as wrought
-    iron and steel to create a variety of objects, including weapons, tools, and
-    decorative items. In ancient Rome, blacksmiths were highly respected and played
-    an important role in the economy and society. They used a variety of tools, including
-    hammers, anvils, and chisels, to shape and mold the metal into the desired form.
-    The process of creating weapons in ancient Rome involved heating the metal until
-    it was red-hot and then hammering it into shape. The blacksmiths would then use
-    other tools to refine the shape and add details to the weapon. The finished product
-    was often highly decorated and could be used for both practical and ceremonial
-    purposes.
+  canvas: {fileID: 5678453576726290270}
+  text: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
   textCanvas: {fileID: 7574523431832352570}
 --- !u!114 &2595404793478903351
 MonoBehaviour:
